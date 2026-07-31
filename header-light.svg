@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200" width="900" height="200" role="img" aria-label="Daniel Olivares Salazar — Full Stack Developer">
+  <defs>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#8A6F1F" stop-opacity="0.9"/>
+      <stop offset="55%"  stop-color="#8A6F1F" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#8A6F1F" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- motivo de radar: alude a Job Radar sin decorar de más -->
+  <g fill="none" stroke="#8A6F1F" stroke-linecap="round">
+    <path d="M 744.57 96 A 64 64 0 0 1 855.43 96"  stroke-width="1"   opacity="0.30"/>
+    <path d="M 760.16 105 A 46 46 0 0 1 839.84 105" stroke-width="1"   opacity="0.48"/>
+    <path d="M 775.75 114 A 28 28 0 0 1 824.25 114" stroke-width="1.1" opacity="0.70"/>
+    <path d="M 736 128 L 864 128" stroke-width="1" opacity="0.32"/>
+    <path d="M 800 128 L 827 70"  stroke-width="1.2" opacity="0.9"/>
+  </g>
+  <circle cx="819.4" cy="86.3" r="2.6" fill="#8A6F1F"/>
+
+  <!-- identidad -->
+  <text x="4" y="52" font-family="Optima, Candara, 'Segoe UI', Helvetica, Arial, sans-serif"
+        font-size="13" letter-spacing="4.2" fill="#8A6F1F">FULL STACK DEVELOPER</text>
+
+  <text x="2" y="103" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif"
+        font-size="43" font-weight="400" letter-spacing="0.5" fill="#14171A">Daniel Olivares Salazar</text>
+
+  <text x="4" y="134" font-family="Optima, Candara, 'Segoe UI', Helvetica, Arial, sans-serif"
+        font-size="16" letter-spacing="0.8" fill="#57606A">React · TypeScript · Node.js · NestJS · Java Spring Boot</text>
+
+  <rect x="2" y="162" width="898" height="1" fill="url(#rule)"/>
+</svg>
