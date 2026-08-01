@@ -1,14 +1,14 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg">
-  <img alt="Daniel Olivares Salazar — Full Stack Developer" src="assets/header-light.svg" width="100%">
+  <img alt="Daniel Olivares Salazar — Full Stack Developer" src="assets/header-dark.svg" width="100%">
 </picture>
 
 <br>
 
 Ingeniero Civil en Computación por la Universidad Católica del Norte. Construyo
-aplicaciones web de extremo a extremo: interfaces en React y Angular sobre APIs
-REST en NestJS y Java Spring Boot.
+aplicaciones web de extremo a extremo: interfaces en React, Next.js y Angular
+sobre APIs REST y GraphQL en NestJS y Java Spring Boot.
 
 En **RedSalud** levanté ocho módulos de un CRM que hoy opera en nueve centros
 médicos del país. Antes, en **Thoughtworks**, construí el frontend completo de un
@@ -40,6 +40,25 @@ hace de base de datos.
 
 <br>
 
+### Gestión Médica
+
+Sistema de gestión clínica construido en equipo durante la carrera. El backend
+en NestJS expone una API GraphQL sobre PostgreSQL; el frontend web está en
+Next.js y lo complementa una aplicación móvil. Es el proyecto donde más lejos
+llevamos la separación entre capas: un esquema GraphQL como contrato único
+consumido por dos clientes distintos.
+
+Mi rol fue el desarrollo del frontend, junto a otra persona del equipo.
+
+<img src="https://img.shields.io/badge/Next.js-161B22?style=flat-square&logo=nextdotjs&logoColor=C9A227" alt="Next.js">
+<img src="https://img.shields.io/badge/NestJS-161B22?style=flat-square&logo=nestjs&logoColor=C9A227" alt="NestJS">
+<img src="https://img.shields.io/badge/GraphQL-161B22?style=flat-square&logo=graphql&logoColor=C9A227" alt="GraphQL">
+<img src="https://img.shields.io/badge/PostgreSQL-161B22?style=flat-square&logo=postgresql&logoColor=C9A227" alt="PostgreSQL">
+
+&nbsp;&nbsp;→ [Frontend](https://github.com/DanielOS1/cchad-frontend) &nbsp;·&nbsp; [Backend](https://github.com/DanielOS1/cchad-backend) &nbsp;·&nbsp; [Mobile](#)
+
+<br>
+
 ### Plataforma de Ecommerce
 
 Arquitectura de microservicios con seis servicios en NestJS que se comunican de
@@ -51,8 +70,6 @@ punta a punta.
 <img src="https://img.shields.io/badge/GraphQL-161B22?style=flat-square&logo=graphql&logoColor=C9A227" alt="GraphQL">
 <img src="https://img.shields.io/badge/RabbitMQ-161B22?style=flat-square&logo=rabbitmq&logoColor=C9A227" alt="RabbitMQ">
 <img src="https://img.shields.io/badge/React-161B22?style=flat-square&logo=react&logoColor=C9A227" alt="React">
-
-&nbsp;&nbsp;→ [Backend](#) &nbsp;·&nbsp; [Frontend](#)
 
 <br>
 
@@ -73,6 +90,7 @@ y metas. Distribuida en Android.
 ## Stack
 
 <img src="https://img.shields.io/badge/React-161B22?style=flat-square&logo=react&logoColor=C9A227" alt="React">
+<img src="https://img.shields.io/badge/Next.js-161B22?style=flat-square&logo=nextdotjs&logoColor=C9A227" alt="Next.js">
 <img src="https://img.shields.io/badge/TypeScript-161B22?style=flat-square&logo=typescript&logoColor=C9A227" alt="TypeScript">
 <img src="https://img.shields.io/badge/Angular-161B22?style=flat-square&logo=angular&logoColor=C9A227" alt="Angular">
 <img src="https://img.shields.io/badge/React%20Native-161B22?style=flat-square&logo=react&logoColor=C9A227" alt="React Native">
