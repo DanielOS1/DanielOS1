@@ -6,7 +6,7 @@
 
 <br>
 
-Ingeniero Civil en Computación por la Universidad Católica del Norte. Construyo
+Ingeniero Civil en Computación e Informática por la Universidad Católica del Norte. Construyo
 aplicaciones web de extremo a extremo: interfaces en React, Next.js y Angular
 sobre APIs REST y GraphQL en NestJS y Java Spring Boot.
 
