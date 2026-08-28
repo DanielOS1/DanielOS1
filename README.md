@@ -11,13 +11,40 @@ aplicaciones web de extremo a extremo: interfaces en React, Next.js y Angular
 sobre APIs REST y GraphQL en NestJS y Java Spring Boot.
 
 En **RedSalud** levanté ocho módulos de un CRM que hoy opera en nueve centros
-médicos del país. Antes, en **Thoughtworks**, construí el frontend completo de un
-producto interno en Angular 18. Ahora desarrollo herramientas propias de
-automatización — abajo está lo que hay.
+médicos del país. También desarrollé productos frontend en Angular 18 para
+**Thoughtworks** y actualmente construyo herramientas propias de automatización
+y aplicaciones full stack.
 
 <img src="assets/rule.svg" width="100%" alt="">
 
 ## Proyectos
+
+### CRM RedSalud — Gestión de Cartera Hospitalaria
+
+CRM interno para la gestión de cartera de deuda hospitalaria, desarrollado para
+**RedSalud** y actualmente utilizado en nueve centros médicos del país.
+Participé en el levantamiento de ocho módulos que cubren el flujo completo desde
+la carga masiva de información clínica y financiera hasta la prefacturación,
+facturación, cobranza y asignación de cartera a ejecutivos.
+
+El frontend está construido en React y consume una API en Spring Boot. La
+arquitectura está organizada por dominios funcionales y utiliza React Query para
+el estado del servidor, Zustand para estado global y rutas protegidas según los
+roles de cada usuario. También incluye procesamiento y validación de archivos
+Excel/CSV, flujos de validación antes de persistir información, wizards para
+procesos de facturación y dashboards con indicadores de cartera y cobranza.
+
+<img src="https://img.shields.io/badge/React-161B22?style=flat-square&logo=react&logoColor=C9A227" alt="React">
+<img src="https://img.shields.io/badge/TypeScript-161B22?style=flat-square&logo=typescript&logoColor=C9A227" alt="TypeScript">
+<img src="https://img.shields.io/badge/Vite-161B22?style=flat-square&logo=vite&logoColor=C9A227" alt="Vite">
+<img src="https://img.shields.io/badge/Tailwind%20CSS-161B22?style=flat-square&logo=tailwindcss&logoColor=C9A227" alt="Tailwind CSS">
+<img src="https://img.shields.io/badge/Zustand-161B22?style=flat-square&logo=react&logoColor=C9A227" alt="Zustand">
+<img src="https://img.shields.io/badge/TanStack%20Query-161B22?style=flat-square&logo=reactquery&logoColor=C9A227" alt="TanStack Query">
+<img src="https://img.shields.io/badge/Docker-161B22?style=flat-square&logo=docker&logoColor=C9A227" alt="Docker">
+
+  → [Repositorio](https://github.com/DanielOS1/frontend-crm-redsalud)
+
+<br>
 
 ### LolosApp — Gestión de Grupos
 
@@ -39,7 +66,34 @@ versiones.
 <img src="https://img.shields.io/badge/PostgreSQL-161B22?style=flat-square&logo=postgresql&logoColor=C9A227" alt="PostgreSQL">
 <img src="https://img.shields.io/badge/Google%20Cloud-161B22?style=flat-square&logo=googlecloud&logoColor=C9A227" alt="Google Cloud">
 
-&nbsp;&nbsp;→ [Backend](https://github.com/DanielOS1/l-server) &nbsp;·&nbsp; [App móvil](https://github.com/DanielOS1/l-client)
+  → [Backend](https://github.com/DanielOS1/l-server)  ·  [App móvil](https://github.com/DanielOS1/l-client)
+
+<br>
+
+### Sigma — Gestión de Centros de Acuicultura
+
+Frontend desarrollado en **Angular 18** para Sigma, un sistema de gestión para
+centros de acuicultura. El proyecto permite administrar usuarios y roles,
+centros de cultivo, pozas o estanques, sensores y dispositivos.
+
+Incluye un flujo de autenticación basado en RUT chileno, detección dinámica del
+tipo de inicio de sesión y verificación en dos pasos. La aplicación maneja
+distintos roles —desde administradores de centro hasta super administradores—
+con dashboards y rutas específicas, además de guards de autenticación y
+autorización.
+
+El proyecto utiliza componentes standalone y soporte para Server-Side Rendering,
+con una arquitectura organizada por dominios y servicios para los distintos
+recursos del sistema.
+
+<img src="https://img.shields.io/badge/Angular-161B22?style=flat-square&logo=angular&logoColor=C9A227" alt="Angular">
+<img src="https://img.shields.io/badge/TypeScript-161B22?style=flat-square&logo=typescript&logoColor=C9A227" alt="TypeScript">
+<img src="https://img.shields.io/badge/Angular%20Material-161B22?style=flat-square&logo=angular&logoColor=C9A227" alt="Angular Material">
+<img src="https://img.shields.io/badge/Tailwind%20CSS-161B22?style=flat-square&logo=tailwindcss&logoColor=C9A227" alt="Tailwind CSS">
+<img src="https://img.shields.io/badge/RxJS-161B22?style=flat-square&logo=reactivex&logoColor=C9A227" alt="RxJS">
+<img src="https://img.shields.io/badge/SSR-161B22?style=flat-square&logo=angular&logoColor=C9A227" alt="Server Side Rendering">
+
+  → [Repositorio](https://github.com/DanielOS1/sigma-front)
 
 <br>
 
@@ -60,7 +114,7 @@ hace de base de datos.
 <img src="https://img.shields.io/badge/GitHub%20Actions-161B22?style=flat-square&logo=githubactions&logoColor=C9A227" alt="GitHub Actions">
 <img src="https://img.shields.io/badge/Cheerio-161B22?style=flat-square&logo=cheerio&logoColor=C9A227" alt="Cheerio">
 
-&nbsp;&nbsp;→ [Repositorio](#)
+  → [Repositorio](#)
 
 <br>
 
@@ -79,7 +133,7 @@ Mi rol fue el desarrollo del frontend, junto a otra persona del equipo.
 <img src="https://img.shields.io/badge/GraphQL-161B22?style=flat-square&logo=graphql&logoColor=C9A227" alt="GraphQL">
 <img src="https://img.shields.io/badge/PostgreSQL-161B22?style=flat-square&logo=postgresql&logoColor=C9A227" alt="PostgreSQL">
 
-&nbsp;&nbsp;→ [Frontend](https://github.com/DanielOS1/cchad-frontend) &nbsp;·&nbsp; [Backend](https://github.com/DanielOS1/cchad-backend) &nbsp;·&nbsp; [Mobile](#)
+  → [Frontend](https://github.com/DanielOS1/cchad-frontend)  ·  [Backend](https://github.com/DanielOS1/cchad-backend)  ·  [Mobile](#)
 
 <br>
 
