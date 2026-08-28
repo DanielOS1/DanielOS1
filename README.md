@@ -114,7 +114,7 @@ hace de base de datos.
 <img src="https://img.shields.io/badge/GitHub%20Actions-161B22?style=flat-square&logo=githubactions&logoColor=C9A227" alt="GitHub Actions">
 <img src="https://img.shields.io/badge/Cheerio-161B22?style=flat-square&logo=cheerio&logoColor=C9A227" alt="Cheerio">
 
-  → [Repositorio](#)
+  → [Repositorio](https://github.com/DanielOS1/job_radar)
 
 <br>
 
@@ -133,7 +133,7 @@ Mi rol fue el desarrollo del frontend, junto a otra persona del equipo.
 <img src="https://img.shields.io/badge/GraphQL-161B22?style=flat-square&logo=graphql&logoColor=C9A227" alt="GraphQL">
 <img src="https://img.shields.io/badge/PostgreSQL-161B22?style=flat-square&logo=postgresql&logoColor=C9A227" alt="PostgreSQL">
 
-  → [Frontend](https://github.com/DanielOS1/cchad-frontend)  ·  [Backend](https://github.com/DanielOS1/cchad-backend)  ·  [Mobile](#)
+  → [Frontend](https://github.com/DanielOS1/cchad-frontend)  ·  [Backend](https://github.com/DanielOS1/cchad-backend)
 
 <br>
 
@@ -173,7 +173,7 @@ punta a punta.
 
 ## Contacto
 
-Abierto a posiciones full stack, 100% remoto.
+Abierto a posiciones full stack.
 
 <a href="https://www.linkedin.com/in/danielos1-dev">
   <img src="https://img.shields.io/badge/LinkedIn-161B22?style=flat-square&logo=linkedin&logoColor=C9A227" alt="LinkedIn">
