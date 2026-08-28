@@ -19,6 +19,30 @@ automatización — abajo está lo que hay.
 
 ## Proyectos
 
+### LolosApp — Gestión de Grupos
+
+App de gestión para organizaciones estudiantiles, en uso real por una
+organización juvenil. El backend es una API REST en NestJS con modelo de datos
+en PostgreSQL (Neon); el cliente móvil está construido en React Native /
+Expo, con cinco módulos: autenticación, grupos, tareas, finanzas y metas.
+
+Desplegada en Google Cloud Run, con Google Secret Manager y Cloud Build para
+el pipeline, y la base de datos en Neon. Antes del despliegue pasó por una
+auditoría de seguridad propia: guards de autorización, control de acceso por
+grupo, migraciones versionadas en vez de sincronización automática de
+esquema, validación de configuración y separación de secretos del control de
+versiones.
+
+<img src="https://img.shields.io/badge/React%20Native-161B22?style=flat-square&logo=react&logoColor=C9A227" alt="React Native">
+<img src="https://img.shields.io/badge/Expo-161B22?style=flat-square&logo=expo&logoColor=C9A227" alt="Expo">
+<img src="https://img.shields.io/badge/NestJS-161B22?style=flat-square&logo=nestjs&logoColor=C9A227" alt="NestJS">
+<img src="https://img.shields.io/badge/PostgreSQL-161B22?style=flat-square&logo=postgresql&logoColor=C9A227" alt="PostgreSQL">
+<img src="https://img.shields.io/badge/Google%20Cloud-161B22?style=flat-square&logo=googlecloud&logoColor=C9A227" alt="Google Cloud">
+
+&nbsp;&nbsp;→ [Backend](https://github.com/DanielOS1/l-server) &nbsp;·&nbsp; [App móvil](https://github.com/DanielOS1/l-client)
+
+<br>
+
 ### Job Radar
 
 Los filtros de los portales de empleo mienten: marcan como remoto lo que es
@@ -70,20 +94,6 @@ punta a punta.
 <img src="https://img.shields.io/badge/GraphQL-161B22?style=flat-square&logo=graphql&logoColor=C9A227" alt="GraphQL">
 <img src="https://img.shields.io/badge/RabbitMQ-161B22?style=flat-square&logo=rabbitmq&logoColor=C9A227" alt="RabbitMQ">
 <img src="https://img.shields.io/badge/React-161B22?style=flat-square&logo=react&logoColor=C9A227" alt="React">
-
-<br>
-
-### Gestión de Grupos
-
-API REST propia en NestJS con modelo de datos en PostgreSQL y una aplicación
-móvil en React Native con cinco módulos: autenticación, grupos, tareas, finanzas
-y metas. Distribuida en Android.
-
-<img src="https://img.shields.io/badge/NestJS-161B22?style=flat-square&logo=nestjs&logoColor=C9A227" alt="NestJS">
-<img src="https://img.shields.io/badge/PostgreSQL-161B22?style=flat-square&logo=postgresql&logoColor=C9A227" alt="PostgreSQL">
-<img src="https://img.shields.io/badge/React%20Native-161B22?style=flat-square&logo=react&logoColor=C9A227" alt="React Native">
-
-&nbsp;&nbsp;→ [Backend](#) &nbsp;·&nbsp; [Mobile](#)
 
 <img src="assets/rule.svg" width="100%" alt="">
 
