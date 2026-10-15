@@ -19,10 +19,10 @@ y aplicaciones full stack.
 
 ## Proyectos
 
-### CRM RedSalud — Gestión de Cartera Hospitalaria
+### CRM Importante Empresa del área de la salud — Gestión de Cartera Hospitalaria
 
 CRM interno para la gestión de cartera de deuda hospitalaria, desarrollado para
-**RedSalud** y actualmente utilizado en nueve centros médicos del país.
+una importante empresa del área de la salud y actualmente utilizado en nueve centros médicos del país.
 Participé en el levantamiento de ocho módulos que cubren el flujo completo desde
 la carga masiva de información clínica y financiera hasta la prefacturación,
 facturación, cobranza y asignación de cartera a ejecutivos.
@@ -42,7 +42,6 @@ procesos de facturación y dashboards con indicadores de cartera y cobranza.
 <img src="https://img.shields.io/badge/TanStack%20Query-161B22?style=flat-square&logo=reactquery&logoColor=C9A227" alt="TanStack Query">
 <img src="https://img.shields.io/badge/Docker-161B22?style=flat-square&logo=docker&logoColor=C9A227" alt="Docker">
 
-  → [Repositorio](https://github.com/DanielOS1/frontend-crm-redsalud)
 
 <br>
 
